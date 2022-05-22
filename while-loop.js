@@ -1,8 +1,8 @@
-// basic while loop structure
+  // basic while loop structure
 let i = 0;
 while (i < 20) {
   i++;
-   console.log(i); // 1-20 output
+  console.log(i); // 1-20 output
 }
 
 // basic while loop odd numbers
@@ -18,4 +18,23 @@ let evenNum = 0;
 while (evenNum <= 20) {
   console.log(evenNum); // output 0-2-4-6...20
   evenNum += 2;
+}
+
+// get array elements in while loop
+const items = [
+  "laptop",
+  "mobail",
+  "phone",
+  "charger",
+  "headphone",
+  "keyboard",
+  "table",
+  "router machine",
+];
+ 
+let getArrayItems = 0;
+while (getArrayItems < items.length) {
+    const arrayItem = items[getArrayItems]
+    console.log(arrayItem);
+    getArrayItems++
 }
