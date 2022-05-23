@@ -1,4 +1,4 @@
-/* // basic while loop structure
+// basic while loop structure
 let i = 0;
 while (i < 20) {
   i++;
@@ -58,7 +58,7 @@ while (differentEvenNum < 20) {
   }
   differentEvenNum++;
 }
- */
+
 
 /* hey there! now I'm sharing another method to get
  even and odd numbers through while loop */
