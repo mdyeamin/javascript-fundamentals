@@ -7,3 +7,7 @@ for (let oddNum = 1; oddNum < 20; oddNum += 2) {
   console.log(oddNum);
 }
 
+// basic for loop even numbers
+for (let evenNum = 0; evenNum < 20; evenNum += 2) {
+  console.log(evenNum);
+}
