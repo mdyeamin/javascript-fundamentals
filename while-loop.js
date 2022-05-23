@@ -31,14 +31,22 @@ const items = [
   "table",
   "router machine",
 ];
- 
+
 let getArrayItems = 0;
 while (getArrayItems < items.length) {
-    const arrayItem = items[getArrayItems]
-    console.log(arrayItem);
-    getArrayItems++
+  const arrayItem = items[getArrayItems];
+  console.log(arrayItem);
+  getArrayItems++;
 }
 
+// basic while loop odd numbers a different way
+let differentOddNum = 0;
+while (differentOddNum < 20) {
+  if (differentOddNum % 2 == 1) {
+    console.log(differentOddNum); //output 1-3-5-7...19
+  }
+  differentOddNum++;
+}
 
 // basic while loop even numbers a different way
 
@@ -49,5 +57,5 @@ while (differentEvenNum < 20) {
     console.log(differentEvenNum); //output 0-2-4-6...18
   }
   differentEvenNum++;
-
 }
+
