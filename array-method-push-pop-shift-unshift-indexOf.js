@@ -16,9 +16,11 @@ you can use push and pop like and see output
 */
 
 // find a element in an array with "indexOf" keyword
-const phoneName = "'Iphone'";
+const phoneName = "iphone";
 if (phones.indexOf(phoneName) != -1) {
   console.log("xiaomi phones");
 } else {
-  console.log(`sorry ${phoneName} didn't match`);
+  console.log(`sorry ${phoneName} didn't match`); //es6 method
 }
+
+
