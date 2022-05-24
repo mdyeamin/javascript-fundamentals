@@ -31,4 +31,4 @@ animals[1] = "goat";
 console.log(animals);
 
 const arrayPositionSee = animals.indexOf("tiger");
-console.log(arrayPositionSee);
+console.log(arrayPositionSee); // output will be 4
