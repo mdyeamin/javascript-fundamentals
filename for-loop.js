@@ -30,3 +30,19 @@ for (getArrayItems = 0; getArrayItems < items.length; getArrayItems++) {
   const arrayItem = items[getArrayItems];
   console.log(arrayItem);
 }
+
+// basic for loop odd numbers a different way
+
+for (differentOddNum = 0; differentOddNum < 20; differentOddNum++) {
+  if (differentOddNum % 2 == 1) {
+    console.log(differentOddNum); //output will be 1-3-5-7...19
+  }
+}
+
+// basic for loop even numbers a different way
+
+for (differentevenNum = 0; differentevenNum < 20; differentevenNum++) {
+  if (differentevenNum % 2 == 0) {
+    console.log(differentevenNum); //output will be 0-2-4-6...18
+  }
+}
