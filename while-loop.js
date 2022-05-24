@@ -76,20 +76,20 @@ while (differentEvenNum < 20) {
 
 // even numbers
 
-let anotherOddNum = 0;
-while (anotherOddNum < 20) {
-  if (anotherOddNum % 2 == !-1) {
-    console.log(anotherOddNum); // output will be 0-2-4-6...18
+let anotherEvenNum = 0;
+while (anotherEvenNum < 20) {
+  if (anotherEvenNum % 2 == !-1) {
+    console.log(anotherEvenNum); // output will be 0-2-4-6...18
   }
-  anotherOddNum++;
+  anotherEvenNum++;
 }
 
 // odd numbers
 
-let anotherEvenNum = 0;
-while (anotherEvenNum < 20) {
-  if (anotherEvenNum % 2 == !!-1) {
-    console.log(anotherEvenNum); //output will be 1-3-5-7...19
+let anotherOddNum = 0;
+while (anotherOddNum < 20) {
+  if (anotherOddNum % 2 == !!-1) {
+    console.log(anotherOddNum); //output will be 1-3-5-7...19
   }
-  anotherEvenNum++;
+  anotherOddNum++;
 }

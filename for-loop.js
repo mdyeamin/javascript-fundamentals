@@ -46,3 +46,22 @@ for (differentevenNum = 0; differentevenNum < 20; differentevenNum++) {
     console.log(differentevenNum); //output will be 0-2-4-6...18
   }
 }
+
+/* hey there! now I'm sharing another method to get
+ even and odd numbers through of "for loop" */
+
+//  even numbers
+
+for (let anotherOddNum = 0; anotherOddNum < 20; anotherOddNum++) {
+  if (anotherOddNum % 2 == !-1) {
+    console.log(anotherOddNum); // output will be  2-4-6-8...18
+  }
+}
+
+//  odd numbers
+
+for (let anotherEvenNum = 0; anotherEvenNum < 20; anotherEvenNum++) {
+  if (anotherEvenNum % 2 == !!-1) {
+    console.log(anotherEvenNum); // output will be  1-3-5-7...19
+  }
+}
