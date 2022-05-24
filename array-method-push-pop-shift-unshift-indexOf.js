@@ -23,4 +23,12 @@ if (phones.indexOf(phoneName) != -1) {
   console.log(`sorry ${phoneName} didn't match`); //es6 method
 }
 
+//array value get and change method:
 
+const animals = ["cat", "elephant", "cow", "dog", "tiger", "lion"];
+
+animals[1] = "goat";
+console.log(animals);
+
+const arrayPositionSee = animals.indexOf("tiger");
+console.log(arrayPositionSee);
