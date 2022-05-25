@@ -5,3 +5,19 @@ function myFunc() {
 }
 
 myFunc();
+// add tow munbers
+function addNum(n1, n2) {
+  // you can pass one or multiple parameters, i use n1, n2
+  const addN = n1 + n2;
+  return addN;
+}
+console.log(addNum(2, 3));
+
+// add tow munbers
+function multNum(n1, n2) {
+  // you can pass one or multiple parameters, i use n1, n2
+  const multNum = n1 * n2;
+  return multNum;
+}
+console.log(multNum(2, 3));
+
