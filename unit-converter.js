@@ -1,13 +1,31 @@
-// feet to inc
-function feetToInc(feet) {
-  const feetToInc = feet * 12;
-  return feetToInc;
+ // feet to inc
+function feetToInch(feet) {
+  const feetToInch = feet * 12;
+  return feetToInch;
 }
-console.log(feetToInc(3));
+console.log(feetToInch(3));
 
 // inc to feet
-function incToFeet(inc) {
-  const incToFeet = inc / 12;
-  return incToFeet;
+function inchToFeet(inch) {
+  const inchToFeet = inch / 12;
+  return inchToFeet;
 }
-console.log(incToFeet(36));
+console.log(inchToFeet(36));
+
+
+// mile to km
+function mileToKilometer(miles) {
+  const km = miles * 1.60934;
+  return km.toPrecision(6);
+}
+
+console.log(mileToKilometer(1));
+
+// km to mile
+
+function kilometerToMile(kilometer) {
+  const mile = kilometer / 1.609;
+  return mile.toPrecision(6);
+}
+
+console.log(kilometerToMile(42));
