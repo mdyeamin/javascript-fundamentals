@@ -84,10 +84,12 @@ console.log(kilobitPerSecundToBitPerSecund(2));
 // secund to minute
 function secundToMinute(secund) {
   const minute = secund / 60;
-
+  if (secund % 60 == 0) {
+    return minute;
+  }
   return minute.toFixed(7);
 }
-console.log(secundToMinute(300));
+console.log(secundToMinute(600));
 
 // minute to secund
 
@@ -139,3 +141,4 @@ function kelvinToFahrenheit(kelvin) {
   return fahrenheit;
 }
 console.log(kelvinToFahrenheit(20));
+
