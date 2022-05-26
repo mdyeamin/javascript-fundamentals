@@ -1,4 +1,4 @@
-/* // feet to inc
+// feet to inc
 function feetToInch(feet) {
   const feetToInch = feet * 12;
   return feetToInch;
@@ -45,7 +45,7 @@ function squareKilometerToSquareMeter(squareKilometer) {
   return squareMeter;
 }
 console.log(squareKilometerToSquareMeter(2));
- */
+
 // meter per secund to kilometer per hour
 
 function meterPerSecundToKilometerPerHour(meterPerSecund) {
@@ -63,3 +63,20 @@ function kilometerPerHourToMeterPerSecund(kilometerPerHour) {
 }
 
 console.log(kilometerPerHourToMeterPerSecund(2));
+
+// bit per secund to kilobit per secund
+
+function bitPerSecundToKilobitPerSecund(bitPerSecund) {
+  const kilobitPerSecund = bitPerSecund / 1000;
+  return kilobitPerSecund;
+}
+console.log(bitPerSecundToKilobitPerSecund(40000));
+
+// kilobit per secund to bit per secund
+
+function kilobitPerSecundToBitPerSecund(kilobitPerSecund) {
+  const bitPerSecund = kilobitPerSecund * 1000;
+  return bitPerSecund;
+}
+
+console.log(kilobitPerSecundToBitPerSecund(2));
