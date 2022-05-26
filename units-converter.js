@@ -98,7 +98,7 @@ function minuteToSecund(minute) {
   return secund;
 }
 console.log(minuteToSecund(5));
- 
+
 // celcius to fahrenheit
 function celciusToFahrenheit(celcius) {
   const fahrenheit = (celcius * 9) / 5 + 32;
@@ -141,4 +141,3 @@ function kelvinToFahrenheit(kelvin) {
   return fahrenheit;
 }
 console.log(kelvinToFahrenheit(20));
-
