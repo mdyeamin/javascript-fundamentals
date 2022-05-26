@@ -80,3 +80,21 @@ function kilobitPerSecundToBitPerSecund(kilobitPerSecund) {
 }
 
 console.log(kilobitPerSecundToBitPerSecund(2));
+
+// secund to minute
+function secundToMinute(secund) {
+  const minute = secund / 60;
+
+  return minute.toFixed(7);
+}
+
+console.log(secundToMinute(300));
+
+// minute to secund
+
+function minuteToSecund(minute) {
+  const secund = minute * 60;
+  return secund;
+}
+
+console.log( minuteToSecund(5));
