@@ -87,7 +87,6 @@ function secundToMinute(secund) {
 
   return minute.toFixed(7);
 }
-
 console.log(secundToMinute(300));
 
 // minute to secund
@@ -96,5 +95,47 @@ function minuteToSecund(minute) {
   const secund = minute * 60;
   return secund;
 }
+console.log(minuteToSecund(5));
+ 
+// celcius to fahrenheit
+function celciusToFahrenheit(celcius) {
+  const fahrenheit = (celcius * 9) / 5 + 32;
+  return fahrenheit;
+}
+console.log(celciusToFahrenheit(44));
 
-console.log( minuteToSecund(5));
+// fahrenheit to celcius
+function fahrenheitToCelcius(fahrenheit) {
+  const celcius = ((fahrenheit - 32) * 5) / 9;
+  return celcius;
+}
+console.log(fahrenheitToCelcius(55));
+
+// kelvin to celcius
+function kelvinToCelcius(kelvin) {
+  const celcius = kelvin - 273.15;
+  return celcius;
+}
+console.log(kelvinToCelcius(33));
+
+// celcius to kelvin
+function celciusToKelvin(celcius) {
+  const kelvin = celcius + 273.15;
+  return kelvin;
+}
+console.log(celciusToKelvin(22));
+
+// fahrenheit to kelvin
+function fahrenheitToKelvin(fahrenheit) {
+  const kelvin = ((fahrenheit - 32) * 5) / 9 + 273.15;
+  return kelvin;
+}
+
+console.log(fahrenheitToKelvin(2));
+
+// kelvin to fahrenheit
+function kelvinToFahrenheit(kelvin) {
+  const fahrenheit = ((kelvin - 273.15) * 9) / 5 + 32;
+  return fahrenheit;
+}
+console.log(kelvinToFahrenheit(20));
