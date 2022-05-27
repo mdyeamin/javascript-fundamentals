@@ -1,4 +1,4 @@
-/* // 1st method factorial with for loop
+// 1st method factorial with for loop
 let factorial = 1;
 for (let i = 1; i < 8; i++) {
   //   console.log(i);
@@ -26,7 +26,7 @@ function factorialNum(n) {
 }
 console.log(factorialNum(7));
 
- */
+
 // 4th method Factorial using a while loop or a decrementing loop
 function decrementFactorialWithWhileLoop(num) {
   let fac = 1;
