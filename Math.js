@@ -4,10 +4,15 @@ const abs = -4;
 const absolute = Math.abs(abs);
 console.log(absolute);
 
-// Math mathod 2
+// Math method 2
 const ceil = 7.30002;
 const sealing = Math.ceil(ceil);
 console.log(sealing);
+
+// Math method 3
+const floor = 7.30002;
+const flooring = Math.floor(floor);
+console.log( flooring);
 
 const acos = -1; // arccosine method number within the range of 1 and -1. ১ থেকে -১ পর্যন্ত এটার রেঞ্জ।
 const arccosine = Math.acos(acos);
