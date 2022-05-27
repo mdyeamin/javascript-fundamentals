@@ -27,7 +27,7 @@ function factorialNum(n) {
 console.log(factorialNum(7));
 
 
-// 4th method Factorial using a while loop or a decrementing loop
+// 4th method reverse Factorial using a while loop or a decrementing loop
 function decrementFactorialWithWhileLoop(num) {
   let fac = 1;
   let i = num;
