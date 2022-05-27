@@ -2,11 +2,23 @@
 let factorial = 1;
 for (let i = 1; i < 8; i++) {
   //   console.log(i);
-  factorial *= i;
+  factorial = factorial * i;
 }
 console.log(factorial);
 
-// 2nd method factorial with a function
+// 2nd method is a factorial function in the loop
+
+function factNum(num) {
+  let fact = 1;
+  for (let i = 1; i <= num; i++) {
+    fact = fact * i;
+  }
+  return fact;
+}
+
+
+console.log('fact number is', factNum(7));
+// 3rd method factorial with a function
 function factorialNum(n) {
   if (n < 0) return;
   if (n < 2) return 1;
