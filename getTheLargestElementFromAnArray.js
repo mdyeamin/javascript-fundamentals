@@ -12,6 +12,6 @@ const a = [3, 55, 6, 9, 11, 65, 97, 4];
 console.log(Math.max.apply(null, a)); // null must be used otherwise code doesn't work
 
 // 2nd method 
-const arrNum = [4,3,1,8];
+const arrNum = [4,3,1,8,55];
 console.log(Math.max(...arrNum)); 
 
