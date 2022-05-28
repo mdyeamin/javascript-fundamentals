@@ -1,4 +1,4 @@
-// Returns the absolute value of abs number
+/* // Returns the absolute value of abs number
 // Math method 1
 const abs = -4;
 const absolute = Math.abs(abs);
@@ -19,6 +19,14 @@ const round = 5.4099;
 const rounding = Math.round(round);
 console.log(rounding);
 
+// Math method 5 
 const acos = -1; // arccosine method number within the range of 1 and -1. ১ থেকে -১ পর্যন্ত এটার রেঞ্জ।
 const arccosine = Math.acos(acos);
 console.log(arccosine);
+
+ */
+// Math method 6
+function EulersNumbers(e) {
+  return Math.E;
+}
+console.log(EulersNumbers());
