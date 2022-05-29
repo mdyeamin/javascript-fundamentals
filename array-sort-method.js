@@ -5,3 +5,11 @@ console.log(arraySort.sort(arrayABSort));
 function arrayABSort(a, b) {
   return a - b;
 }
+
+console.log(
+  arraySort.sort(function (a, b) {
+    return a - b;
+  })
+);
+
+console.log(arraySort.sort((a, b) => a - b));
