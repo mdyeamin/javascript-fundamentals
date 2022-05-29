@@ -19,11 +19,10 @@ const round = 5.4099;
 const rounding = Math.round(round);
 console.log(rounding);
 
-// Math method 5 
+// Math method 5
 const acos = -1; // arccosine method number within the range of 1 and -1. ১ থেকে -১ পর্যন্ত এটার রেঞ্জ।
 const arccosine = Math.acos(acos);
 console.log(arccosine);
-
 
 // Math method 6
 function EulersNumbers(e) {
@@ -35,20 +34,21 @@ console.log(EulersNumbers());
 // Because E is a static property of Math, you always use it as Math.E, rather than as a property of a Math object you created (Math is not a constructor).
 
 function compoundOneYear(interestRate, currentVal) {
-    return currentVal * (Math.E ** interestRate);
-  }
-  
-  console.log(Math.E);
-  // expected output: 2.718281828459045
-  
-  console.log((1 + (1 / 1000000)) ** 1000000);
-  // expected output: 2.718280469 (approximately)
-  
-  console.log(compoundOneYear(0.05, 100));
-  // expected output: 105.12710963760242
- 
- 
-  /* abs(x)	Returns the absolute value of x
+  return currentVal * Math.E ** interestRate;
+}
+
+console.log(Math.E);
+// expected output: 2.718281828459045
+
+console.log((1 + 1 / 1000000) ** 1000000);
+// expected output: 2.718280469 (approximately)
+
+console.log(compoundOneYear(0.05, 100));
+// expected output: 105.12710963760242
+
+console.log(parseInt(Math.random() * 6));
+
+/* abs(x)	Returns the absolute value of x
   acos(x)	Returns the arccosine of x, in radians
   acosh(x)	Returns the hyperbolic arccosine of x
   asin(x)	Returns the arcsine of x, in radians
