@@ -1,4 +1,4 @@
-// first of all, i write a forEach loop function
+/* // first of all, i write a forEach loop function
 
 // raw fanction
 function getArrayLargestElement(array) {
@@ -23,7 +23,7 @@ const banglaGit = [
 
 console.log(getArrayLargestElement(banglaGit));
 
-// es6 largest with forEach lopp arrow function
+// es6 arrow function
 
 const getLargestArrowFunc = (array) => {
   let largest = "";
@@ -32,6 +32,21 @@ const getLargestArrowFunc = (array) => {
       largest = word;
     }
   });
+  return largest;
+};
+
+console.log(
+  getLargestArrowFunc(["hello", "world", "md yeamin", "i'm", "here"])
+);
+ */
+
+const getLargestArrowFunc = (array) => {
+  let largest = "";
+  for (let i = 0; i < array.length; i++) {
+    if (largest.length < array[i].length) {
+      largest = array[i];
+    }
+  }
   return largest;
 };
 
