@@ -1,4 +1,4 @@
-/* // first of all, i write a forEach loop function
+// first of all, i write a forEach loop function
 
 // raw fanction
 function getArrayLargestElement(array) {
@@ -38,9 +38,8 @@ const getLargestArrowFunc = (array) => {
 console.log(
   getLargestArrowFunc(["hello", "world", "md yeamin", "i'm", "here"])
 );
- */
 
-const getLargestArrowFunc = (array) => {
+const getLargestArrowFuncfoorLoop = (array) => {
   let largest = "";
   for (let i = 0; i < array.length; i++) {
     if (largest.length < array[i].length) {
@@ -51,5 +50,5 @@ const getLargestArrowFunc = (array) => {
 };
 
 console.log(
-  getLargestArrowFunc(["hello", "world", "md yeamin", "i'm", "here"])
+  getLargestArrowFuncfoorLoop(["hello", "world", "md yeamin", "i'm", "here"])
 );
