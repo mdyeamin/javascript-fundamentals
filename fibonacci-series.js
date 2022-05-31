@@ -1,4 +1,4 @@
-/* let fibo = [0, 1];
+let fibo = [0, 1];
 for (let i = 2; i <= 10; i++) {
   fibo[i] = fibo[i - 1] + fibo[i - 2];
 }
@@ -12,7 +12,7 @@ function fiboSeries(num) {
   return fibo;
 }
 console.log(fiboSeries(20));
- */
+
 // with recursive funcrion
 
 function recursiveFibo(num) {
