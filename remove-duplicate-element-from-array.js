@@ -1,4 +1,4 @@
-/* // remove duplicate element from array
+ // remove duplicate element from array
 const numbers = [20, 22, 10, 20, 39, 10, 30];
 const uniqueNumbers = [...new Set(numbers)];
 console.log(uniqueNumbers);
@@ -25,7 +25,7 @@ function removeDups(birds) {
   return Object.keys(unique);
 }
 console.log(removeDups(birds));
- */
+
 
 const arr = [33, 44, 645, 33, 77, 86, 77, 10, 19, 10];
 let removeDup = [];
