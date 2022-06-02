@@ -1,15 +1,4 @@
-const arr = [
-  103,
-  "this",
-  49,
-  "is",
-  33,
-  "a",
-  19,
-  "javascript",
-  54,
-  87,
-  "programs",
+const arr = [103,"this",49,"is",33,"a",19,"javascript",54,87,"programs",
 ];
 let str = [""];
 let num = [];
