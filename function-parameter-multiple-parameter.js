@@ -1,5 +1,5 @@
 // basic function declare
-function myFunc() {
+function myFunc() {  // 👉() this is parentheses
   // write the "function" keyword and defined a function name "i use "myFunc"
   console.log("this is a simple function");
 }
