@@ -12,6 +12,8 @@ computer["name"] = "dell"; // 1st method is an object value get and change
 const computercolor = "color"; // 2nd method
 computer[computercolor] = "gray black"; // 3rd method
 
-computer.isPowerFull = true; // add new properties to object
-
+computer.isPowerFull = true; //1st way : add new properties to object
+computer["isHot"] = false; // 2nd way : add new properties to object
+computer["RAM"] = "64 GB";
+computer["SSD"] = "1 TB";
 console.log(computer);
