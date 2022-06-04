@@ -31,11 +31,11 @@ function isLess(a, b) {
     return false;
   }
 }
-console.log(isLess(30, 25));
+console.log(isLess(30, 25)); // olutput will be true
 
 // same function you can use sortcut
 
 function isLess(a, b) {
   return a < b;
 }
-console.log(isLess(20, 25));
+console.log(isLess(20, 25)); // olutput will be true
