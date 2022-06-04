@@ -12,4 +12,6 @@ computer["name"] = "dell"; // 1st method is an object value get and change
 const computercolor = "color"; // 2nd method
 computer[computercolor] = "gray black"; // 3rd method
 
+computer.isPowerFull = true; // add new properties to object
+
 console.log(computer);
