@@ -1,5 +1,6 @@
 // basic function declare
-function myFunc() {  // 👉() this is parentheses
+function myFunc() {
+  // 👉() this is parentheses
   // write the "function" keyword and defined a function name "i use "myFunc"
   console.log("this is a simple function");
 }
@@ -21,3 +22,20 @@ function multNum(n1, n2) {
 }
 console.log(multNum(2, 3));
 
+// returning boolean values from function
+
+function isLess(a, b) {
+  if (a < b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(isLess(30, 25));
+
+// same function you can use sortcut
+
+function isLess(a, b) {
+  return a < b;
+}
+console.log(isLess(20, 25));
