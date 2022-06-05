@@ -24,3 +24,22 @@ console.log(computer);
 
 delete computer.substance;
 console.log(computer);
+
+// testing objects for properties
+// hasOwnProperty
+
+const myObj = {
+  gift: "books",
+  classTime: "10AM",
+  classRoom: "2nd floor",
+};
+
+function checkObj(checkProp) {
+  if (myObj.hasOwnProperty(checkProp)) {
+    return myObj[checkProp];
+  } else {
+    return "not found";
+  }
+}
+
+console.log(checkObj("robots"));
