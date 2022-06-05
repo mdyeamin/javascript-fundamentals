@@ -1,3 +1,17 @@
+// nested object
+const eatLess = {
+  eat: {
+    morning: {
+      dawn: " dates and fruits",
+      morning: "mashed potato and lentil soup",
+      lastMorning: "fruits drinks",
+    },
+    lunch: "chicken fri and cows Meat",
+    breakFist: "milk and dates",
+  },
+};
+
+// nasted Array
 const myMusic = [
   {
     artist: "sammy sone",
