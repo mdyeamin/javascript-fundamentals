@@ -1,4 +1,4 @@
-/* // array reverse method
+ // array reverse method
 // 1st way
 const arr = [9, 8, 7, 6, 5, 4, 3, 3, 1, 0];
 const arrReverse = arr.reverse();
@@ -24,7 +24,7 @@ for (let i = arr3.length - 1; i >= 0; i--) {
   }
 }
 console.log("arr3 is", reverseArr3);
- */
+
 // accessing nested array items
 
 let nestedArr = [
