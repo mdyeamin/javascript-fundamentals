@@ -30,7 +30,7 @@ console.log(computer);
 // testing objects for properties
 // hasOwnProperty
 
-/* const myObj = {
+ const myObj = {
   gift: "books",
   classTime: "10AM",
   classRoom: "2nd floor",
@@ -45,4 +45,4 @@ function checkObj(checkProp) {
 }
 
 console.log(checkObj("robots"));
- */
+
