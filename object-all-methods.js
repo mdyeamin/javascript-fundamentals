@@ -18,17 +18,19 @@ computer["RAM"] = "64 GB";
 computer["SSD"] = "1 TB";
 
 computer["substance"] = "iron"; //this property added to for delete
-console.log(computer);
+computer["location"] = "USA";
 
 // delete properties form object
 
 delete computer.substance;
 console.log(computer);
 
+delete computer["location"];
+console.log(computer);
 // testing objects for properties
 // hasOwnProperty
 
-const myObj = {
+/* const myObj = {
   gift: "books",
   classTime: "10AM",
   classRoom: "2nd floor",
@@ -43,3 +45,4 @@ function checkObj(checkProp) {
 }
 
 console.log(checkObj("robots"));
+ */
