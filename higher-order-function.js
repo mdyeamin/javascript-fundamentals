@@ -7,3 +7,13 @@ function squerList(arr) {
   return squerInt;
 }
 console.log(squerList(arr));
+
+
+const increment = (function () {
+  return function increment(number, value = 2) {
+    return number + value;
+  };
+})();
+
+console.log(increment(4, 4));
+console.log(increment(4));
