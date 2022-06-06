@@ -39,3 +39,13 @@ for (let i = 0; i < nestedArr.length; i++) {
   }
 }
 console.log(nestedSum);
+
+
+function stringReverse(str) {
+  let reverse = "";
+  for (const string of str) {
+    reverse = string + reverse;
+  }
+  console.log(reverse);
+}
+stringReverse("hello ");
