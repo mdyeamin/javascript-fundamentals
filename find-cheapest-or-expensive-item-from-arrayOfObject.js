@@ -33,3 +33,19 @@ for (const phone of phones) {
   }
 }
 console.log(expensive);
+
+// last three expensive mobail
+const phoneSort = phones.sort((a, b) =>
+  a.price > b.price ? 1 : b.price > a.price ? -1 : 0
+);
+
+const phoneRevarse = phoneSort.reverse();
+console.log(
+  "last three expensive mobail",
+  phoneRevarse[0],
+  phoneRevarse[1],
+  phoneRevarse[2]
+);
+// if (phoneRevarse.length === 3) {
+
+// }
