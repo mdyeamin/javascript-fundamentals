@@ -7,5 +7,6 @@ write a function -
 3 15 rupees per kilometer for the first 90 kilometers
 4 and 12 rupees per kilometer for the next 120 kilometers
 5 and 8 rupees per kilometer for the next kilometers
+6 (optional) if traveling more than 500 kilometers you give a discount of 3% 
 */
 
