@@ -10,3 +10,32 @@ write a function -
 6 (optional) if traveling more than 500 kilometers you give a discount of 3% 
 */
 
+function travelingDistanceCostCalculate(kilometer) {
+  let totalCost = 0;
+
+  const first90Kilo = 15;
+  const next120Kilo = 12;
+  const afterKilo = 8;
+
+  const costingForFirst90Kilos = 90 * first90Kilo;
+  const costingForNext120Kilos = 120 * next120Kilo;
+  const costingFor210Kilo = costingForFirst90Kilos + costingForNext120Kilos;
+
+
+  if (kilometer <= 90 && kilometer > 0) {
+    totalCost =  costingForFirst90Kilos ;
+  }
+
+   else if (kilometer <= 120 && kilometer > 0) {
+    totalCost = (kilometer - 90) * next120Kilo + costingForFirst90Kilos;
+    
+  }
+  
+  else {
+    totalCost =  (kilometer -210 ) * afterKilo + costingFor210Kilo;
+  }
+  return totalCost;
+}
+
+console.log(travelingDistanceCostCalculate(390));
+
