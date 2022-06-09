@@ -12,7 +12,8 @@ write a function -
 
 function travelingDistanceCostCalculate(kilometer) {
   let totalCost = 0;
-
+  let discount = 0;
+  
   const first90Kilo = 15;
   const next120Kilo = 12;
   const afterKilo = 8;
@@ -32,16 +33,19 @@ function travelingDistanceCostCalculate(kilometer) {
   }
   
   else {
-    totalCost =  (kilometer -210 ) * afterKilo + costingFor210Kilo;
+    totalCost =  (kilometer - 210 ) * afterKilo + costingFor210Kilo;
     if(kilometer>500){
-     totalCost = totalCost - (3 /100 ) * totalCost
-
+      discount = ((3 / 100 ) * totalCost)
+     totalCost = totalCost - discount;
+     console.log("you give discount",Math.round(discount));
+      
+     
     }
   }
-  return totalCost;
+  return Math.round(totalCost);
 }
 
-console.log(travelingDistanceCostCalculate(510));
+const travelingArea = travelingDistanceCostCalculate(550);
 
-
-console.log(90*15+120*12+300*8);
+console.log(` ${travelingArea} you give discount`);
+// console.log(discount);
