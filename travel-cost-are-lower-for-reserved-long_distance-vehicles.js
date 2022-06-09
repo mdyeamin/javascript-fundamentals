@@ -49,3 +49,5 @@ const travelingArea = travelingDistanceCostCalculate(550);
 
 console.log(` ${travelingArea} you give discount`);
 // console.log(discount);
+
+
