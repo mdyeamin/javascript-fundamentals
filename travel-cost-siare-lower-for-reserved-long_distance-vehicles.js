@@ -33,9 +33,15 @@ function travelingDistanceCostCalculate(kilometer) {
   
   else {
     totalCost =  (kilometer -210 ) * afterKilo + costingFor210Kilo;
+    if(kilometer>500){
+     totalCost = totalCost - (3 /100 ) * totalCost
+
+    }
   }
   return totalCost;
 }
 
-console.log(travelingDistanceCostCalculate(390));
+console.log(travelingDistanceCostCalculate(510));
 
+
+console.log(90*15+120*12+300*8);
